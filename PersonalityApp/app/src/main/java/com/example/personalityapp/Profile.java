@@ -313,7 +313,7 @@ public class Profile {
 
     //mind
     public static char getEI() {
-        if (i > e || e == i) {
+        if (i >= e) {
             return 'I';
         } else {
             return 'E';
@@ -322,7 +322,7 @@ public class Profile {
 
     //energy
     public static char getSN() {
-        if (n > s || s == n) {
+        if (n >= s) {
             return 'N';
         } else {
             return 'S';
@@ -340,7 +340,7 @@ public class Profile {
 
     //tactics
     public static char getJP() {
-        if (p > j || j == p) {
+        if (p >= j) {
             return 'P';
         } else {
             return 'J';

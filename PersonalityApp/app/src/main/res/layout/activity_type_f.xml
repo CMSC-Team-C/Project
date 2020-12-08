@@ -117,8 +117,16 @@
         android:id="@+id/imageView2"
         android:layout_width="299dp"
         android:layout_height="544dp"
-        app:srcCompat="@drawable/fpup"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="48dp" />
+        android:layout_marginTop="-10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toEndOf="@+id/buttonA"
+        app:layout_constraintTop_toBottomOf="@+id/mind_header"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fpup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

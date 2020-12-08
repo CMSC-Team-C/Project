@@ -7,7 +7,13 @@
 
     <!--About-->
     <string name="app_description">About</string>
-    <string name="credits">Credits:\nYunseo Choi - Lead Graphics, Design, UI\nRoy Chung - \nBen Hodge - \nClaire Paisley - \nHana Parece - \n</string>
+    <string name="credits">This is
+        \n\nCredits:
+        \nYunseo Choi - Lead Graphics, Design, UI
+        \nRoy Chung -
+        \nBen Hodge -
+        \nClaire Paisley -
+        \nHana Parece - \n</string>
 
 
     <!--Gender-->

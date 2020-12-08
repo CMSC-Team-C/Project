@@ -31,7 +31,7 @@
         android:layout_height="105dp"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
-        android:layout_marginTop="256dp"
+        android:layout_marginTop="350dp"
         android:layout_marginEnd="21dp"
         android:layout_marginRight="21dp"
         android:text="@string/f_description"
@@ -55,10 +55,10 @@
         android:text="@string/back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/buttonC"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias=".736" />
 
     <Button
         android:id="@+id/buttonB"
@@ -73,10 +73,10 @@
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/buttonC"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.736" />
 
     <Button
         android:id="@+id/buttonC"
@@ -91,10 +91,9 @@
         android:text="@string/return_results"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.736" />
 
     <TextView
         android:id="@+id/type"
@@ -113,5 +112,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mind_header" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="299dp"
+        android:layout_height="544dp"
+        app:srcCompat="@drawable/fpup"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="48dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

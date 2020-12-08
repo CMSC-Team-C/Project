@@ -92,7 +92,6 @@
         android:id="@+id/imageView9"
         android:layout_width="352dp"
         android:layout_height="618dp"
-        android:contentDescription="@string/description"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"

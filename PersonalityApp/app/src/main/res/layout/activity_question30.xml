@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blender_background"
+    android:background="@drawable/apron_background"
     tools:context=".Question30">
 
 
@@ -18,6 +18,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/question30_a"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="5.0"
+        android:shadowDy="5.0"
+        android:shadowRadius="1.0"
+        android:textColor="@android:color/black"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,6 +40,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/question30_b"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="5.0"
+        android:shadowDy="5.0"
+        android:shadowRadius="1.0"
+        android:textColor="@android:color/black"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

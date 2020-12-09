@@ -10,14 +10,14 @@
 
     <Button
         android:id="@+id/buttonA"
-        android:layout_width="184dp"
-        android:layout_height="281dp"
+        android:layout_width="189dp"
+        android:layout_height="222dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="@drawable/cauliflower"
+        android:background="@drawable/peas"
         android:shadowColor="#FFFFFF"
         android:shadowDx="5.0"
         android:shadowDy="5.0"
@@ -28,21 +28,21 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.971"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.272" />
+        app:layout_constraintVertical_bias="0.361" />
 
     <Button
         android:id="@+id/buttonB"
-        android:layout_width="197dp"
-        android:layout_height="279dp"
+        android:layout_width="208dp"
+        android:layout_height="210dp"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:background="@drawable/grapegruit"
+        android:background="@drawable/paprika"
         android:shadowColor="#FFFFFF"
         android:shadowDx="5.0"
         android:shadowDy="5.0"
@@ -56,5 +56,5 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.277" />
+        app:layout_constraintVertical_bias="0.305" />
 </androidx.constraintlayout.widget.ConstraintLayout>

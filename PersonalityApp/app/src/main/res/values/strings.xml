@@ -17,9 +17,10 @@
 
 
     <!--Gender-->
-    <string name="sex">What is your sex?</string>
+    <string name="sex">Please select your gender?</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
+    <string name="no_answer">Prefer not to answer</string>
 
     <!--Part 1-->
     <string name="part1">Part 1</string>

@@ -7,17 +7,20 @@
 
     <!--About-->
     <string name="app_description">About</string>
-    <string name="credits">This is
+    <string name="credits">The app asks a user a series of questions based off the Myers\'s
+        Briggs Personality test, tabulates the results,
+        and presents the user\'s personality profile upon completion.
         \n\nCredits:
         \nYunseo Choi - Lead Graphics, Design, UI
-        \nRoy Chung -
-        \nBen Hodge -
-        \nClaire Paisley -
-        \nHana Parece - \n</string>
+        \nRoy Chung - Programmer, tester
+        \nBen Hodge - Programmer
+        \nClaire Paisley - Graphics, Design, UI
+        \nHana Parece - Graphics, Design, UI
+        \n\nThe creators of this app are not affiliated with the Myers &amp; Briggs Foundation. </string>
 
 
     <!--Gender-->
-    <string name="sex">Please select your gender?</string>
+    <string name="sex">Please select your gender:</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
     <string name="no_answer">Prefer not to answer</string>

@@ -10,8 +10,8 @@
 
     <Button
         android:id="@+id/buttonA"
-        android:layout_width="258dp"
-        android:layout_height="288dp"
+        android:layout_width="342dp"
+        android:layout_height="371dp"
         android:layout_alignParentBottom="true"
         android:background="@drawable/bagels"
         android:shadowColor="#FFFFFF"
@@ -24,14 +24,15 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18" />
+        app:layout_constraintVertical_bias="0.044" />
 
     <Button
         android:id="@+id/buttonB"
-        android:layout_width="262dp"
-        android:layout_height="289dp"
+        android:layout_width="387dp"
+        android:layout_height="335dp"
         android:layout_alignParentBottom="true"
         android:background="@drawable/chickenbutton"
         android:shadowColor="#FFFFFF"
@@ -44,9 +45,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.844" />
+        app:layout_constraintVertical_bias="0.891" />
 
     <ProgressBar
         android:id="@+id/simpleProgressBar"

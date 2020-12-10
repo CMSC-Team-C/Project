@@ -9,6 +9,7 @@ import android.widget.Button;
 public class SelectGender extends AppCompatActivity {
     private Button buttonA;                                     //declare buttonA as a button that will be defined
     private Button buttonB;
+    private Button buttonC;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +32,16 @@ public class SelectGender extends AppCompatActivity {
             public void onClick(View view) {
                 //do something
                 MainActivity.profile.setResponse(0, 'B');
+                openPart1();                    //go to next question
+            }
+        });
+
+        buttonC = (Button) findViewById(R.id.buttonC);
+        buttonC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //do something
+                MainActivity.profile.setResponse(0, 'A');
                 openPart1();                    //go to next question
             }
         });

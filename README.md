@@ -1,4 +1,4 @@
-# Meyer's Briggs Personality Test
+# Myer's Briggs Personality Test
 
 # Description
 The app asks a user a series of questions based off the Myers's Briggs Personality test, tabulates
